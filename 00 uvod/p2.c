@@ -1,5 +1,5 @@
 #include<stdio.h>
-
+// Program koji ispisuje kvadrat unetog celog broja
 int main(){
     printf("unesi broj ");
     int n; // n je ceo broj
