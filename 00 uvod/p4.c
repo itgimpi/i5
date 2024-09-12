@@ -8,6 +8,9 @@ int main(){
     // pomocu krajnje desne cifre
     int cif;
     cif = n % 10;
+
+    // OVO SE NE PREPORUCUJE!!!
+    
     if ( cif==0 || cif==2 || cif==4 || cif==6 || cif==8 )
         printf("Broj %d je paran.\n", n);
     else
