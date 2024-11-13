@@ -1,30 +1,30 @@
 #include <stdio.h>
 
 /* 
-switch (izraz) { // 
+switch menja if - else - if ...
+
+switch (izraz) { // vrednost izraz-a
+    // ako je konstantan_izraz1 -> naredbe1
     case konstantan_izraz1: naredbe1
+    // ako je konstantan_izraz2 -> naredbe2
     case konstantan_izraz2: naredbe2
     ...
-    default: naredbe_n
+    default: naredbe_n // nista do sada
 } 
 */
 
-void f() {
-    printf("Pozdrav iz void-a\n");
-}
-int f2(int n) {
-    return n+1; }
-
-
 int main() {
-    /*
-    3 + 4*5;
-    n = 3;
-    c++;
-    
-    */
-    f();
-    printf("%d\n", f2(10));
+
+    int n;
+    scanf("%i",&n);
+    switch (n % 3) {
+        case 1:
+        case 2:
+            printf("Uneti broj nije deljiv sa 3"); 
+            break;
+        default: printf("Uneti broj je deljiv sa 3");
+    }
+
 
     return 0;  
     
