@@ -1,6 +1,7 @@
 #include <stdio.h>
 // Napisati program koji za zadati dan, mesec i godinu ispituje da li je uneti datum korektan
 // uzeti u obzir i prestupne godine
+
 // Koristiti switch naredbu
 
 int main() {  // <- {} su za blok (više) naredbi
