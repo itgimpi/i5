@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/* Input, Output */
+/* unos se prekida znakom '.' */
 
 int main() {
     char c;

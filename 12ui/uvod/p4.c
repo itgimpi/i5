@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/* Input, Output */
+/* do kraja fajla, EOF, CTRL + Z */
 
 int main() {
     int c; // zbog EOF

@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/* Input, Output */
+/* 2 znaka */
 
 int main() {
     char c;

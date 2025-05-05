@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/* Input, Output */
+/* Input -> Output */
 
 int main() {
     int c; // zbog EOF

@@ -6,7 +6,7 @@ int main() {
     int c; // zbog EOF
 
     while ( (c = getchar()) != EOF ) 
-        putchar(toupper(c));
+        putchar(toupper(c)); // velika
        
 
     return 0; }

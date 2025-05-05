@@ -6,7 +6,7 @@ int main() {
     int c; // zbog EOF
 
     while ( (c = getchar()) != EOF ) 
-        putchar(tolower(c));
+        putchar(tolower(c)); // mala slova
        
 
     return 0; }
