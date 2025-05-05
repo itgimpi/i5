@@ -7,7 +7,7 @@ int main() {
     FILE *f;
     f = fopen("test2.txt", "w");
 
-    srand(time(NULL));
+    srand(time(NULL)); // slucajniji brojevi
     
     for (int i = 0; i < 1000; i++) 
         putc('0' + rand() % 10, f); // ascii kod cifre od 0 do 9
