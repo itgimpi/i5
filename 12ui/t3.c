@@ -11,7 +11,7 @@ int main() {
     
     for (int i = 0; i < 1000; i++) { 
         putc('0' + rand() % 10, f);
-        putc('\n', f);
+        putc('\n', f); // novi red
     }
     
     fclose(f);
