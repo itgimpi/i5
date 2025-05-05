@@ -10,7 +10,7 @@ int main() {
     srand(time(NULL));
 
     for (int i = 0; i < 1000; i++) {
-        int sluc = rand();
+        int sluc = rand(); // broj od 0 do RAND_MAX=32767
         fprintf(f, "%d\n", sluc);
     }
         
