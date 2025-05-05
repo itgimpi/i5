@@ -4,7 +4,7 @@
 
 int main() {
     char c;
-    c = getchar();
-    putchar(c);
+    c = getchar(); // uzmi 1 znak sa standardnog ulaza
+    putchar(c); // posalji ga na standardni izlaz
 
     return 0; }
