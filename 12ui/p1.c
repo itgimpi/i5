@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <ctype.h>
-/* citanje iz fajla, znak po znak */
+/* citanje iz fajla, znak po znak, ispis putchar */
 
 int main() {
     FILE *f;
