@@ -7,11 +7,11 @@ int main() {
     FILE *f;
     f = fopen("test10.txt", "w");
 
-    srand(time(NULL));
+    //srand(time(NULL));
     char str[] = "1234567890";
 
     for (int i = 0; i < 1000; i++) {
-        fputs(str, f);
+        fputs(str, f); // upis stringa
         putc('\n', f);
     }
         
