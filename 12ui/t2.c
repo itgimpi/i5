@@ -10,7 +10,7 @@ int main() {
     srand(time(NULL));
     
     for (int i = 0; i < 1000; i++) 
-        putc('0' + rand() % 10, f);
+        putc('0' + rand() % 10, f); // ascii kod cifre od 0 do 9
     
     fclose(f);
 
