@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <ctype.h>
-/* Files */
+/* citanje iz fajla, znak po znak, putc */
 
 int main() {
     FILE *f;
