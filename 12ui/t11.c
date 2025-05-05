@@ -7,11 +7,11 @@ int main() {
     FILE *f;
     f = fopen("test10.txt", "r");
 
-    srand(time(NULL));
+    //srand(time(NULL));
     char str[10];
 
     for (int i = 0; i < 1000; i++) {
-        fgets(str, 10, f);
+        fgets(str, 10, f); // citanje stringa
         printf("%s\n", str);
     }
         
