@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <ctype.h>
 /* Files */
-// napravi fajl od 1kB
+// napravi fajl od oko 1MB
 int main() {
     FILE *f;
 
