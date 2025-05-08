@@ -1,10 +1,8 @@
 #include <stdio.h>
 #include <ctype.h>
-/* Files */
-// napravi fajl od 1kB
+// napravi fajl od oko 1kB sa nulama
 int main() {
     FILE *f;
-    // otvori fajl in1.txt za citanje i zovi ga f1
 
     f = fopen("file1kB.txt", "w");
     if (f==NULL) { // ako ne postoji fajl...
