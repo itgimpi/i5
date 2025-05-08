@@ -7,7 +7,6 @@ int main() {
     FILE *f;
     f = fopen("test2.txt", "r");
 
-    //srand(time(NULL));
     
     for (int i = 0; i < 1000; i++)  {
         int c = getc(f);
