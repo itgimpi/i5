@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <ctype.h>
 /* Files */
-// napravi fajl od 1kB
+// napravi fajl od oko 1GB
 int main() {
     FILE *f;
 
-    f = fopen("file1MB.txt", "w");
+    f = fopen("file1GB.txt", "w");
     if (f==NULL) { // ako ne postoji fajl...
         printf("greska!!!");
         return 1; }
