@@ -4,7 +4,7 @@
 
 int main() {
     FILE *f;
-    f = fopen("binarni2.bin", "r");
+    f = fopen("binarni2.bin", "r+b");
 
     int x;
     fread(&x, sizeof(int), 1, f);
@@ -16,8 +16,7 @@ int main() {
     fread(&x, sizeof(int), 1, f);  
     printf("%d\n", x);
     
-    printf("Upisano je %ld Bajta", ftell(f));
-    
+   
     fclose(f);
 
     return 0; }
