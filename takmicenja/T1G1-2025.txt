@@ -1,0 +1,63 @@
+	Test 1, Group 1, 23/09/28
+1.(2pts) Which of these sentences are propositions? What are the truth values of those that are propositions?
+a) Berlin is the capital of Germany.
+b) 2 + 3 = 5. 
+c) x + 2 = 11. 
+d) Answer this question.
+
+2.(2pts) What is the negation of each of these propositions?
+a) Jennifer and Teja are friends.
+b) There are 13 items in a baker’s dozen.
+c) Abby sent more than 100 text messages every day.
+d) 121 is a perfect square.
+
+3.(4pts) Let p and q be the propositions
+p : I bought a lottery ticket this week.
+q : I won the million dollar jackpot.
+Express each of these propositions as an English sentence.
+a) p ∧ q 
+b) p → ¬q
+c) ¬p ∨ q 
+d) p ↔ ¬q 
+
+4.(4pts) Determine whether each of these conditional statements is true or false.
+a) If 1 + 1 = 3, then unicorns exist.
+b) If 1 + 1 = 3, then dogs can fly.
+c) If 1 + 1 = 2, then dogs can fly. 
+d) If 2 + 2 = 4, then 1 + 2 = 3. 
+
+5.(4pts) For each of these sentences, determine whether an inclusive or, or an exclusive or, is intended. 
+a) Coffee or tea comes with dinner.
+b) A password must have at least three digits or be at least eight characters long.
+c) The prerequisite for the course is a course in number theory or a course in cryptography.
+d) You can pay using U.S. dollars or euros.
+
+6.(4pts) How many rows appear in a truth table for each of these compound propositions?
+a) (q → ¬p) ∨ (¬p → ¬q)
+b) (p ∨ ¬t) ∧ (p ∨ ¬s)
+c) (p → r) ∨ (¬s → ¬t) ∨ (¬u → v)
+d) (p ∧ r ∧ s) ∨ (q ∧ t) ∨ (r ∧ ¬t)
+
+7.(4pts) Explain, without using a truth table, why (p ∨¬q) ∧ (q ∨¬r) ∧ (r ∨¬p) is true when p, q, and r have the same truth value and it is false otherwise.
+
+8.(10pts) Fuzzy logic is used in artificial intelligence. In fuzzy logic, a proposition has a truth value that is a number between 0 and 1, inclusive.Aproposition with a truth value of 0 is false and one with a truth value of 1 is true. Truth values that are between 0 and 1 indicate varying degrees of truth. For instance, the truth value 0.8 can be assigned to the statement “Fred is happy,” because Fred is happy most of the time, and the truth value 0.4 can be assigned to the statement “John is happy,” because John is happy slightly less than half the time. 
+The truth value of the negation of a proposition in fuzzy logic is 1 minus the truth value of the proposition.
+The truth value of the disjunction of two propositions in fuzzy logic is the maximum of the truth values of the two propositions. What are the truth values of the statements “Fred is happy, or John is happy” and “Fred is not happy, or John is not happy?”
+
+9.(6pts) You cannot edit a protected Wikipedia entry unless you are an administrator. Express your answer in terms of e: “You can edit a protected Wikipedia entry” and a: “You are an administrator.”
+
+10.(10pts) Inhabitants of the island are knights or knaves, where knights always tell the truth and knaves always lie. You encounter two people, A and B. Determine, if possible, what A and B are if they address you in the ways described. If you cannot determine what these two people are, can you draw any conclusions?
+A says “I am a knave or B is a knight” and B says nothing.
+
+11.(10pts) Inhabitants of the island are knights or knaves, where knights always tell the truth and knaves always lie. You encounter two people, A and B. Determine, if possible, what A and B are if they address you in the ways described. If you cannot determine what these two people are, can you draw any conclusions?
+Both A and B say “I am a knight.” 
+
+12.(10pts) Inhabitants of an island on which there are three kinds of people: knights who always tell the truth, knaves who always lie, and spies who can either lie or tell the truth. You encounter three people, A, B, and C. You know one of these people is a knight, one is a knave, and one is a spy. Each of the three people knows the type of person each of other two is. For each of these situations, if possible, determine whether there is a unique solution and determine who the knave, knight, and spy are. When there is no unique solution, list all possible solutions or state that there are no solutions.
+A says “I am the knight,” B says “A is telling the truth,” and C says “I am the spy.”
+ 
+13.(10pts) Inhabitants of an island on which there are three kinds of people: knights who always tell the truth, knaves who always lie, and spies who can either lie or tell the truth. You encounter three people, A, B, and C. You know one of these people is a knight, one is a knave, and one is a spy. Each of the three people knows the type of person each of other two is. For each of these situations, if possible, determine whether there is a unique solution and determine who the knave, knight, and spy are. When there is no unique solution, list all possible solutions or state that there are no solutions.
+A says “I am not the spy,” B says “I am not the spy,” and C says “I am not the spy.”
+
+14.(10pts) Freedonia has fifty senators. Each senator is either honest or corrupt. Suppose you knowthat at least one of the Freedonian senators is honest and that, given any two Freedonian senators, at least one is corrupt. Based on these facts, can you determine how many Freedonian senators are honest and how many are corrupt? If so, what is the answer?
+
+15.(10pts) Construct a combinatorial circuit using inverters, OR gates, and AND gates that produces the output (¬p ∨ ¬r) ∧ (q ∧ r) from input bits p, q, and r.
