@@ -1,0 +1,60 @@
+	Test 1, Group 2, 23/09/28
+	
+1.(2pts) 
+a) What time is it?
+b) 4 + x = 5.
+c) The moon is made of green cheese. N
+d) 1 + 1 = 2. T
+
+2.(2pts) 
+a) Mei does not have an MP3 player.
+b) There is pollution in New Jersey.
+c) 2+1<>3
+d) is not hot or it is not sunny
+It is not the case that the summer in Maine is hot and sunny. In other words, the summer in Maine is not hot and sunny, which means that it is not hot or it is not sunny. It is not correct to negate this by saying "The summer in Maine is not hot and not sunny." [For this part (and in a similar vein for part (b)) we need to assume that there are well-defined notions of hot and sunny; otherwise this would not be a proposition because of not having a definite truth value.]
+
+3.(4pts) 
+a) p ∧ q 
+b) p → ¬q
+c) ¬p ∨ q 
+d) p ↔ ¬q  
+
+a) Swimming at the New Jersey shore is allowed, and sharks have been spotted near the shore.
+b) If swimming at the New Jersey shore is allowed, then sharks have not been spotted near the shore.
+c) Swimming at the New Jersey shore is not allowed, or sharks have been spotted near the shore.
+d) Swimming at the New Jersey shore is allowed if and only if sharks have not been spotted near the shore.
+
+4.(4pts) In each case, we simply need to determine the truth value of the hypothesis and the conclusion, and then use the definition of the truth value of the conditional statement. The conditional statement is true in every case except when the hypothesis (the if part) is true and the conclusion (the then part) is false.
+a) Since the hypothesis is true and the conclusion is false, this conditional statement is false. F
+b) Since the hypothesis is false and the conclusion is true, this conditional statement is true. T
+c) Since the hypothesis is false and the conclusion is false, this conditional statement is true. Note that the conditional statement is false in both part (b) and part ( c); as long as the hypothesis is false, we need look no further to conclude that the conditional statement is true. T
+d) Since the hypothesis is false, this conditional statement is true. T
+
+5.(4pts) 
+a) Experience with C++ or Java is required. In
+b) Lunch includes soup or salad. Ex
+c) To enter the country you need a passport or a voter registration card. Ex
+d) Publish or perish. Ex
+
+6.(4pts) a) 2 b) 16 c) 64 d) 16
+
+7.(4pts) The first clause (p V q V r) is true if and only if at least one of p, q, and r is true. The second clause ( ¬p V ¬q V ¬r) is true if and only if at least one of the three variables is false. Therefore both clauses are true, and therefore the entire statement is true, if and only if there is at least one T and one F among the truth values of the variables, in other words, that they don't all have the same truth value.
+
+8.(10pts) 
+For Fred is happy, and John is happy, the truth value is min(0.8, 0.4) = 0.4.
+Neither Fred nor John is happy, the truth value is min(0.2, 0.6) = 0.2.
+
+9.(6pts) e V p => m
+
+10.(10pts) 
+A F, B T
+
+11.(10pts) If A is a knight, then he should be telling the truth, but he is asserting that he is a knave. So that cannot be. If A is a knave, then in order for his statement to be false, B must be a knight. So we can conclude that A is a knave and B is a knight.
+
+12.(10pts) Neither the knight nor the knave would say that he is the knave, so B must be the spy. Therefore C is lying and must be the knave, and A is therefore the knight (and told the truth).
+
+13.(10pts) We can tell nothing here; each of the six permutations is possible. The knight will always say that he is the knight; the knave will always lie, so he might also say that he is the knight; and the spy may lie and say that he is the knight.
+
+14.(10pts) The given conditions imply that there cannot be two honest senators. Therefore, since we are told that there is at least one honest senator, there must be exactly 49 corrupt senators.
+
+15.(10pts) (p ∧¬r) ∨ (¬q ∧ r) pic.

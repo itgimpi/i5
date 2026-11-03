@@ -1,0 +1,61 @@
+	Test 1, Group 1, 23/09/28
+1.(2pts) 
+a) Berlin is the capital of Germany. T
+b) 2 + 3 = 5. T
+c) x + 2 = 11.
+d) Answer this question.
+
+2.(2pts)
+a) Jennifer and Teja are not friends.
+b) There are not 13 items in a baker’s dozen.
+c) Abby sent <= 100 text messages every day.
+d) 121 is not a perfect square.
+
+3.(4pts) Let p and q be the propositions
+p : I bought a lottery ticket this week.
+q : I won the million dollar jackpot.
+Express each of these propositions as an English sentence.
+a) p ∧ q 
+b) p → ¬q
+c) ¬p ∨ q 
+d) p ↔ ¬q 
+
+a) I bought a lottery ticket this week, and I won the million dollar jackpot.
+b) If I bought a lottery ticket this week, then I not won the million dollar jackpot.
+c) I not bought a lottery ticket this week, or I won the million dollar jackpot.
+d) I bought a lottery ticket this week if and only if I not won the million dollar jackpot.
+
+4.(4pts) 
+a) If 1 + 1 = 3, then unicorns exist.
+b) If 1 + 1 = 3, then dogs can fly.
+c) If 1 + 1 = 2, then dogs can fly. F
+d) If 2 + 2 = 4, then 1 + 2 = 3. T
+
+5.(4pts) 
+a) Presumably the diner gets to choose only one of these beverages, so this is an exclusive or.
+b) This is probably meant to be inclusive, so that long passwords with many digits are acceptable.
+c) This is surely meant to be inclusive. If a student has had both of the prerequisites, so much the better.
+d) At first glance one might argue that no one would pay with both currencies simultaneously, so it would seem reasonable to call this an exclusive or. There certainly could be cases, however, in which the patron would pay a portion of the bill in dollars and the remainder in euros. Therefore, an inclusive or seems better.
+
+6.(4pts) a) 4 b) 8 c) 64 d) 32
+
+7.(4pts) ...
+
+8.(10pts) For Fred is happy, or John is happy, the truth value is max(0.8, 0.4) = 0.8.
+For Fred is not happy, or John is not happy, the truth value is max(0.2, 0.6) = 0.6.
+
+9.(6pts) Recall that q unless 7p is another way to state p => q. In this problem, 7P is a, so p is 7a and q is 7e. Therefore the statement here is 7a => 7e. This could also be stated equivalently as e => a (if you can edit, then you must be an administrator).
+
+10.(10pts) If A is a knight, then he is telling the truth, in which case B must be a knight as well, since A is not a knave. (If p V q and 7p are both true, then q must be true.) Since B said nothing, that is certainly possible. If A is a knave, then his statement is patently true, but that is a contradiction to the behavior of knaves. 
+So we can conclude that A is a knight and B is a knight.
+
+11.(10pts) 
+unsolvable
+
+12.(10pts) We know that B is not the knight, because if he were, then his assertion that A is telling the truth would mean that there were two knights. Clearly C is not the knight, because he claims he is the spy. Therefore A is the knight. That means that B was telling the truth, so he must be the spy. And C is the knave, who falsely asserts that he is the spy. AT, BS, CF
+ 
+13.(10pts) We can tell nothing here; each of the six permutations is possible. The knight will always say that he is the knight; the knave will always lie, so he might also say that he is the knight; and the spy may lie and say that he is the knight.
+
+14.(10pts) The given conditions imply that there cannot be two honest senators. Therefore, since we are told that there is at least one honest senator, there must be exactly 49 corrupt senators.
+
+15.(10pts) (¬p ∨ ¬r) ∧ (q ∧ r) pic.
